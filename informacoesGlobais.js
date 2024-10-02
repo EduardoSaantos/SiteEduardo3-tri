@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
+const url = 'https://raw.githubusercontent.com/EduardoSaantos/api/refs/heads/main/dados-globais.json?token=GHSAT0AAAAAACYKYXKEMK6HFPK76UXWH4MAZX44V7Q'
 
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
